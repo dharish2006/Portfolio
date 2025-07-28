@@ -112,10 +112,13 @@ const Projects = () => {
 
           <div className="text-center mt-12">
             <Button
+              asChild
               variant="outline"
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-3 rounded-full font-medium"
             >
-              View All Projects
+              <a href="https://github.com/dharish2006" target="_blank" rel="noopener noreferrer">
+                View All Projects
+              </a>
             </Button>
           </div>
         </div>
