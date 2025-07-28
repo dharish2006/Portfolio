@@ -2,37 +2,37 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github } from "lucide-react";
-import project1 from "@/assets/project1.jpg";
-import project2 from "@/assets/project2.jpg";
-import project3 from "@/assets/project3.jpg";
+import project1 from "@/assets/dc.png";
+import project2 from "@/assets/f1.png";
+import project3 from "@/assets/medicobot.png";
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Analytics Dashboard",
-      description: "A comprehensive analytics dashboard built with React and D3.js, featuring real-time data visualization and interactive charts.",
+      title: "DC_FC_service",
+      description: "A frontend for ordering food from a restaurant",
       image: project1,
-      tags: ["React", "TypeScript", "D3.js", "Node.js", "PostgreSQL"],
-      liveUrl: "#",
-      githubUrl: "#"
+      tags: ["React", "Tailwind CSS"],
+      liveUrl: "https://dharish2006.github.io/DC_FC_service/",
+      githubUrl: "https://github.com/dharish2006/DC_FC_service"
     },
     {
       id: 2,
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
+      title: "F1 lap time prediction",
+      description: "lap time prediction using machine learning - under development",
       image: project2,
-      tags: ["Next.js", "Stripe", "Prisma", "Tailwind CSS", "Vercel"],
+      tags: [],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/Megesh95/F1"
     },
     {
       id: 3,
-      title: "Mobile Fitness App",
-      description: "Cross-platform mobile app for fitness tracking with workout plans, progress monitoring, and social features.",
+      title: "Medicobot",
+      description: "A chatbot that can help you with your medical queries and provide you with which type of doctor you should visit.",
       image: project3,
-      tags: ["React Native", "Firebase", "Redux", "Expo", "TypeScript"],
-      liveUrl: "#",
+      tags: ["IBM cloud","WatsonX"],
+      liveUrl: "https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?backgroundImageURL=https%3A%2F%2Fus-south.assistant.watson.cloud.ibm.com%2Fpublic%2Fimages%2Fupx-cfaefb37-fd7a-4479-b7d6-a32d5ddd4eed%3A%3A90f0ce8f-85b9-46c9-9daa-3360f5a2903f&integrationID=d58cf4f4-087e-4dee-9ed5-7f450b0d7182&region=us-south&serviceInstanceID=cfaefb37-fd7a-4479-b7d6-a32d5ddd4eed",
       githubUrl: "#"
     }
   ];

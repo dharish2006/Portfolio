@@ -38,19 +38,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "john.doe@example.com",
-      href: "mailto:john.doe@example.com"
+      value: "dharish2006@gmail.com",
+      href: "mailto:dharish2006@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+91 9629630725",
+      href: "tel:+919629630725"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Vellore, Tamil Nadu",
       href: "#"
     }
   ];
@@ -59,18 +59,13 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com"
+      href: "https://github.com/dharish2006"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com"
+      href: "www.linkedin.com/in/harish-kumar-d-a27623202"
     },
-    {
-      icon: Twitter,
-      label: "Twitter",
-      href: "https://twitter.com"
-    }
   ];
 
   return (

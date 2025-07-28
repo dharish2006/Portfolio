@@ -8,7 +8,7 @@ const Footer = () => {
           </div>
           
           <div className="text-muted-foreground text-sm text-center md:text-left">
-            © 2024 John Doe. All rights reserved. Built with React & Tailwind CSS.
+            © 2025 Harish Kumar D. All rights reserved. Built with React & Tailwind CSS.
           </div>
         </div>
       </div>

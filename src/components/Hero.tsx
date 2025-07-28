@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "/lovable-uploads/0caef5c4-c1be-4220-a7fd-a6f1117bcdf7.png";
+import heroImage from "/lovable-uploads/portbg.jpg";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -31,7 +31,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Full-Stack Developer & UI/UX Designer creating exceptional digital experiences
+            BTech Computer Science and Engineering Student
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
@@ -49,13 +49,6 @@ const Hero = () => {
               Let's Talk
             </Button>
           </div>
-        </div>
-      </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-primary rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-primary rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
     </section>
