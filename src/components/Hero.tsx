@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "/lovable-uploads/portbg.jpg";
+import heroImage from "@/assets/portbg.png";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -50,6 +50,11 @@ const Hero = () => {
             </Button>
           </div>
         </div>
+      </div>
+      {/* Scroll Down Indicator */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 flex flex-col items-center">
+        <span className="animate-bounce text-3xl text-primary/80">↓</span>
+        <span className="text-xs text-muted-foreground mt-1">Scroll</span>
       </div>
     </section>
   );

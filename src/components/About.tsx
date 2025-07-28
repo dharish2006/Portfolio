@@ -45,7 +45,7 @@ const About = () => {
                   </li>
                   <li className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
-                    <span>Technical Consulting</span>
+                    <span>Generative AI</span>
                   </li>
                 </ul>
               </div>

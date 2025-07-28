@@ -64,7 +64,7 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "www.linkedin.com/in/harish-kumar-d-a27623202"
+      href: "https://www.linkedin.com/in/harish-kumar-d-a27623202/"
     },
   ];
 

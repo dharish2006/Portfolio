@@ -14,7 +14,6 @@ const Projects = () => {
       description: "A frontend for ordering food from a restaurant",
       image: project1,
       tags: ["React", "Tailwind CSS"],
-      liveUrl: "https://dharish2006.github.io/DC_FC_service/",
       githubUrl: "https://github.com/dharish2006/DC_FC_service"
     },
     {
@@ -23,7 +22,6 @@ const Projects = () => {
       description: "lap time prediction using machine learning - under development",
       image: project2,
       tags: [],
-      liveUrl: "#",
       githubUrl: "https://github.com/Megesh95/F1"
     },
     {
@@ -32,8 +30,7 @@ const Projects = () => {
       description: "A chatbot that can help you with your medical queries and provide you with which type of doctor you should visit.",
       image: project3,
       tags: ["IBM cloud","WatsonX"],
-      liveUrl: "https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?backgroundImageURL=https%3A%2F%2Fus-south.assistant.watson.cloud.ibm.com%2Fpublic%2Fimages%2Fupx-cfaefb37-fd7a-4479-b7d6-a32d5ddd4eed%3A%3A90f0ce8f-85b9-46c9-9daa-3360f5a2903f&integrationID=d58cf4f4-087e-4dee-9ed5-7f450b0d7182&region=us-south&serviceInstanceID=cfaefb37-fd7a-4479-b7d6-a32d5ddd4eed",
-      githubUrl: "#"
+      githubUrl: "https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?backgroundImageURL=https%3A%2F%2Fus-south.assistant.watson.cloud.ibm.com%2Fpublic%2Fimages%2Fupx-cfaefb37-fd7a-4479-b7d6-a32d5ddd4eed%3A%3A90f0ce8f-85b9-46c9-9daa-3360f5a2903f&integrationID=d58cf4f4-087e-4dee-9ed5-7f450b0d7182&region=us-south&serviceInstanceID=cfaefb37-fd7a-4479-b7d6-a32d5ddd4eed"
     }
   ];
 
@@ -91,18 +88,21 @@ const Projects = () => {
 
                   <div className="flex space-x-3 pt-2">
                     <Button
+                      asChild
                       size="sm"
                       className="flex-1 bg-primary hover:bg-primary-glow text-primary-foreground"
                     >
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      Live Demo
-                    </Button>
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      className="border-border hover:bg-secondary"
-                    >
-                      <Github className="w-4 h-4" />
+                      {project.id === 3 ? (
+                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="w-4 h-4 mr-2" />
+                          Live Demo
+                        </a>
+                      ) : (
+                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                          <Github className="w-4 h-4 mr-2" />
+                          GitHub
+                        </a>
+                      )}
                     </Button>
                   </div>
                 </CardContent>
